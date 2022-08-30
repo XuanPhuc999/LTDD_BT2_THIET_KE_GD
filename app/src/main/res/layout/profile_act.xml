@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#7cbce8"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp">
+
+            <TextView
+
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:text=" Back"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="137dp"
+                android:layout_height="40dp"
+                android:paddingLeft="70dp"
+                android:src="@drawable/setting_icon" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/profile" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Bui Xuan Phuc"
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="432dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp">
+
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:hint="100 \n Friends"
+                    android:textColorHint="@color/white"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="100 \n Followers"
+                    android:textColorHint="@color/white"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="476dp"
+
+        android:layout_marginTop="400dp"
+        android:background="@drawable/bot_layout_profile"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/text_username"
+            android:ems="15"
+            android:hint="Email: mail@gmail.com"
+            android:textColor="#7cbce8"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/text_middle"
+            android:ems="15"
+            android:hint="MSV: 2050531200251"
+            android:textColor="#7cbce8"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/text_middle"
+            android:ems="15"
+            android:hint="Skype: mail123"
+            android:textColor="#7cbce8"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/test_pass"
+            android:ems="15"
+            android:hint="Web: mail.com"
+            android:textColor="#7cbce8"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
